@@ -14,7 +14,7 @@ jobs:
     name: Unit Testing
     runs-on: ubuntu-latest
     container:
-      image: 'node:18'
+      image: 'node:20'
     env:
       MONGO_URI: 'mongodb://mongo:27017/superData'
       MONGO_USERNAME: non-prod-user
